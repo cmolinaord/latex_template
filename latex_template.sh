@@ -1,1 +1,1 @@
-cp -vr $(dirname "$(readlink -f "$0")")/root/* .
+cp -vr $(dirname "$(readlink -f "$0")")/latex_template/* .
