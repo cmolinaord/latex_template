@@ -3,6 +3,7 @@ INSTALL_DIR = /proyectos/bin
 .PHONY: install uninstall
 
 install:
+	install -Dm755 latex_template.sh 			$(INSTALL_DIR)/latex_project
 	install -Dm755 latex_template/.gitignore		$(INSTALL_DIR)/latex_template/.gitignore
 	install -Dm755 latex_template/.latexmkrc		$(INSTALL_DIR)/latex_template/.latexmkrc
 	install -Dm755 latex_template/README.md			$(INSTALL_DIR)/latex_template/README.md
