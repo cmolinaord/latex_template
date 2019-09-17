@@ -4,6 +4,8 @@ This is an abstract
 
 \section{Introduction}
 
+Figure:
+
 \begin{figure}[h]
 	\centering
 	%\includegraphics[width=0.8\textwidth]{img/}
@@ -11,6 +13,26 @@ This is an abstract
 	\label{fig:}
 \end{figure}
 
-Text\\
+Subfigure\\
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		%\includegraphics[width=\textwidth]{img/}
+		\caption{Img 1}
+		\label{fig:img1}
+	\end{subfigure}
+	~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
+	%(or a blank line to force the subfigure onto a new line)
+	\begin{subfigure}{0.45\textwidth}
+		%\includegraphics[width=\textwidth]{img/}
+		\caption{Img 2}
+		\label{fig:img2}
+	\end{subfigure}
+	\caption[Full caption short]
+	{Full caption}
+	\label{fig:double_fig}
+\end{figure}
+
 
 Reference \ref{fig:}\\
